@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+  <EditText android:text="@+id/EditName" 
+    android:id="@+id/EditName" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent"></EditText>
+  
+  <Gallery
+    android:id="@+id/gallery"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+  
+  <Button android:id="@+id/SelectImage"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:text="@string/select_image" />
+    
+  <EditText android:text="@+id/EditSerialNumber" 
+    android:id="@+id/EditSerialNumber" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent"></EditText>
+  
+  <DatePicker
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+  
+  <Button android:id="@+id/saveBtn"
+    android:text="Save"
+    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		/>
+</LinearLayout>

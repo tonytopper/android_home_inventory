@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Welcome to Home Inventory</string>
+    <string name="app_name">Home Inventory</string>
+    <string name="add_category">Add Category</string>
+    <string name="select_image">Add Image</string>
+</resources>
